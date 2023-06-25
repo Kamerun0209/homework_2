@@ -237,40 +237,42 @@ body {
                         margin-top: 330px;
                     }
                 }
-            }
 
-            .hr {
-                display: flex;
+                .hr {
+                    display: flex;
 
-                .hr__item {
-                    background: url(./images/chiziq.svg);
-                    width: 760px;
-                    height: 2px;
+                    .hr__item {
+                        background: url(../images/chiziq.svg);
+                        width: 760px;
+                        height: 2px;
 
-                    .hr__round1 {
-                        background: url(./images/round.svg);
-                        width: 31px;
-                        height: 31px;
-                        margin-top: -14px;
-                    }
+                        .hr__round1 {
+                            background: url(../images/round.svg);
+                            width: 31px;
+                            height: 31px;
+                            margin-top: -14px;
+                        }
 
-                    .hr__round2 {
-                        background: url(./images/round.svg);
-                        width: 31px;
-                        height: 31px;
-                        margin-left: 380px;
-                        margin-top: -30px;
-                    }
+                        .hr__round2 {
+                            background: url(../images/round.svg);
+                            width: 31px;
+                            height: 31px;
+                            margin-left: 380px;
+                            margin-top: -30px;
+                        }
 
-                    .hr__round3 {
-                        background: url(./images/round.svg);
-                        width: 31px;
-                        height: 31px;
-                        margin-left: 760px;
-                        margin-top: -31px;
+                        .hr__round3 {
+                            background: url(../images/round.svg);
+                            width: 31px;
+                            height: 31px;
+                            margin-left: 760px;
+                            margin-top: -31px;
+                        }
                     }
                 }
             }
+
+
 
             .card__2 {
                 display: flex;
@@ -334,7 +336,6 @@ body {
         }
 
         footer {
-            margin-bottom: 100px;
 
             .footer__item {
                 display: flex;
